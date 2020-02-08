@@ -30,6 +30,7 @@ function htmlfile(req, res, _head, next) {
 ```
 
 New versions check this, fixing the XSS :
+``````
 function htmlfile(req, res, _head, next) {
   if (!('c' in req.query || 'callback' in req.query)) {
     return next({
@@ -53,7 +54,7 @@ function htmlfile(req, res, _head, next) {
   next();
 }
 
-
+``````
 # Payload:
 
 Payload to execute a RXSS is the next one:
