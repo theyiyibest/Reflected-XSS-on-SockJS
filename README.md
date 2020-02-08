@@ -65,7 +65,9 @@ https://<vulnerablehost>/<vulnerable_dir>/000/<some_UUID>/htmlfile?c=alert(%27SO
 For example:
 
 https://<vulnerablehost>/<vulnerable_dir>/000/0d1d5bc5-d326-4690-9e25-e08ef24a7e3a/htmlfile?c=alert(%27SOCKJS%27)//
- 
+
+![alt text](https://github.com/theyiyibest/
+Reflected-XSS-on-SockJS/blob/master/CVE Alert.jpg)
  
 # Fix
 
